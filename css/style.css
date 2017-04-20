@@ -1,0 +1,92 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background: #ccc;
+}
+.page{
+	max-width:50%;
+	margin:0 auto;
+}
+header,
+.body-sec{
+	float: left;
+	background: #065D55;
+	width: 100%;
+	color: #fff;
+	padding: 10px;
+}
+.body-sec{
+	background: #f8f8f8;
+	height: 500px;
+	position: relative;
+}
+.body-sec div.txt-area{
+	height: 470px;
+	overflow: auto;
+}
+header span{
+	float: left;
+	width: auto;
+	padding: 0 5px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	font-weight: bold;
+	cursor: pointer;
+}
+.pfl-pic img{
+	height: 30px;
+	width:30px;
+	border-radius: 50%;
+	float: left;
+	object-fit:cover;
+}
+.left-arrow{
+	float: left;
+}
+.main-options{
+	float: right;
+}
+.txt-spc {
+    bottom: 0;
+    position: absolute;
+    background: #fff;
+}
+.txt-spc textarea{
+	  border: 1px solid #ccc;
+    box-shadow: none;
+    resize: none;
+    width: 90%;
+}
+.btn-send{
+  background: #065d55 none repeat scroll 0 0;
+    bottom: 13px;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 0;
+    position: relative;
+    width: 50px;
+    border:none;
+}
+.message {
+	background: #e2ffc7 none repeat scroll 0 0;
+    clear: both;
+    display: table;
+    float: right;
+    padding: 10px;
+    width: auto;
+    margin: 10px 0;
+}
+.message span{
+	color: #000;
+}
+.message:before{	
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;  
+  border-left: 60px solid green;
+
+}
